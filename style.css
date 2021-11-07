@@ -1,0 +1,191 @@
+.mother div{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.baby1{
+    position: static;
+}
+.baby2{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.baby3{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.baby4{
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+.baby5{
+    position: static;
+    left: 50%;
+    top: 10px;
+}
+.baby6, .baby7, .baby8, .baby9, .baby10{
+    position: static;
+}
+.baby11{
+    position:sticky;
+    left: 600px;
+    top: 700px;
+}
+.baby12{
+    position: relative;
+    right: 100px;
+    bottom: 500px;
+}
+.baby13{
+    position: relative;
+    left:100px ;
+    top: 400px;
+}
+.pencil{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90px;
+    height: 400px;
+    background-color: chocolate;
+    border-radius: 8px;
+    box-shadow: 1px -35px 60px -20px chocolate;
+}
+.p1{
+    position: absolute;
+    top: -143px;
+    right: 0;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(141, 70, 12);
+    clip-path: polygon(50% 0%, 100% 91%, 100% 100%, 0% 100%, 0% 90%);
+}
+.w{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.p2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 100%;
+    background-color: rgb(230, 230, 29);
+    border-radius: 100px 100px 0 0;
+    animation: tor 2s linear infinite;  
+}
+.p3{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 40px;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 130px 130px 0 0;
+    animation: tor 2s linear infinite;
+}
+.p4{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 100%;
+    background-color: rgb(230, 230, 29);
+    border-radius: 100px 100px 0 0;
+    animation: tor 2s linear infinite;
+
+}
+@keyframes tor{
+    0%{
+        background-color: yellow;
+        box-shadow: rgba(168, 168, 20, 0.534);
+        border: 1px solid black;
+    }
+    25%{
+        background-color: yellowgreen;
+        box-shadow: rgba(117, 161, 28, 0.486);
+        border: 1px solid black;
+    }
+    50%{
+        background-color: chartreuse;
+        box-shadow: rgba(80, 138, 22, 0.486);
+        border: 1px solid black;
+    }
+    75%{
+        background-color: greenyellow;
+        box-shadow: rgba(115, 173, 26, 0.493);
+        border: 1px solid black;
+    }
+    100%{
+        background-color: yellow;
+        box-shadow: rgba(168, 168, 20, 0.534);
+        border: 1px solid black;
+    }
+}
+.box{
+    background: #a84a73;
+    background-image: linear-gradient(-160deg, #0d0887, #41049d, #6a00a8, #8f0da4, #b12a90, #cb4679, #e16462, #f1834c, #fca636, #fcce25, #fcce25);
+    width: 390px;
+    height: 390px;
+    border-radius: 70px;
+    position: relative;
+    left: 600px;
+    top: 25px;
+    
+}
+.box1{
+    width: 270px;
+    height: 270px;
+    border-radius: 70px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border: 20px solid white;
+}
+.box2{
+    width: 110px;
+    height: 110px;
+    border: 20px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.box3{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.Japan{
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    border: 2px solid black;
+}
+.circul{
+    width: 200px;
+    height: 200px;
+    background-color: firebrick;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    border-radius: 100%;
+}
